@@ -6,6 +6,6 @@
 
 @layer base {
     body {
-        @apply font-baseFamily text-base text-primary-black dark:text-primary-white
+        @apply font-baseFamily text-base sm:text-sm text-primary-black dark:text-primary-white
     }
 }
