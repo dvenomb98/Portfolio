@@ -6,13 +6,7 @@ interface GradientTextProps {
 }
 
 const GradientText: React.FC<GradientTextProps> = ({ customStyles, text }) => {
-  return (
-    <p
-      className={`bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 ${customStyles}`}
-    >
-      {text}
-    </p>
-  );
+  return <p className={`gradientText ${customStyles}`}>{text}</p>;
 };
 
 export default GradientText;

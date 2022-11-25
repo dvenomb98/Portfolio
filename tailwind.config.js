@@ -11,7 +11,9 @@ module.exports = {
       colors: {
         'primary-black': '#000000',
         'primary-white': '#F4F4F9',
-        'primary-yellow': '#F2AF29',
+        'primary-orange': '#ff981f',
+        'primary-gray': '#4b5563',
+        'primary-gray-dark': '#9ca3af',
       },
       fontSize: {
         h4: ['1.125rem', '1'], // 18px
@@ -21,6 +23,10 @@ module.exports = {
         headline: ['3.25rem', '1.25'],
         banner: ['4.25rem', '1'],
         small: ['0.75rem', '1'],
+      },
+      backgroundImage: {
+        'banner-texture': "url('../images/banner.png')",
+        'banner-texture-light': "url('../images/banner-light.png')",
       },
     },
   },

@@ -9,6 +9,25 @@ import Logo from '../Atoms/Logo';
 const Header = () => {
   const { theme, setTheme } = useTheme();
 
+  // const pagination = [
+  //   {
+  //     text: "Hello world",
+  //     number: "01."
+  //   },
+  //   {
+  //     text: "Projects",
+  //     number: "02."
+  //   },
+  //   {
+  //     text: "About me",
+  //     number: "03."
+  //   },
+  //   {
+  //     text: "Contact",
+  //     number: "04."
+  //   }
+  // ]
+
   return (
     <Background>
       <Container customStyles="py-6">

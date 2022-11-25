@@ -7,7 +7,7 @@ interface ContainerProps {
 
 const Container = ({ children, customStyles }: ContainerProps) => {
   return (
-    <div className={`container mx-auto px-5 ${customStyles ? customStyles : 'py-16'}`}>
+    <div className={`container mx-auto px-5 lg:px-32 ${customStyles ? customStyles : 'py-16'}`}>
       {children}
     </div>
   );

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +6,20 @@
 
 @layer base {
     body {
-        @apply font-baseFamily text-base sm:text-sm text-primary-black dark:text-primary-white
+        @apply font-baseFamily text-2xl leading-10 text-primary-black dark:text-primary-white
     }
 }
+
+@layer components {
+    .gradientText {
+        background: -webkit-linear-gradient(0deg,#be22ff 20%,#ff279c 50%,#ff981f 80%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        
+    }
+
+    .descriptionText {
+        @apply text-primary-gray dark:text-primary-gray-dark
+    }
+  }
