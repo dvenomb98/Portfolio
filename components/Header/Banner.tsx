@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import GradientText from '../Atoms/GradientText';
 import Background from '../Layouts/Background';
 import Container from '../Layouts/Container';
-import useTheme from 'next-theme';
+import { useTheme } from 'next-themes';
 
 const textMargin = 'my-5';
 
