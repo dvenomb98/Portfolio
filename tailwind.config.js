@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  safelist: ['banner-texture', 'banner-texture-light'],
   darkMode: 'class',
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -32,4 +31,5 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: ['banner-texture', 'banner-texture-light'],
 };
