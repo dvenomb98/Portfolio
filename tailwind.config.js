@@ -25,8 +25,8 @@ module.exports = {
         small: ['0.75rem', '1'],
       },
       backgroundImage: {
-        'banner-texture': "url('../images/banner.png')",
-        'banner-texture-light': "url('../images/banner-light.png')",
+        'banner-texture': "url('/banner.png')",
+        'banner-texture-light': "url('/banner-light.png')",
       },
     },
   },
